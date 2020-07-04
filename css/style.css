@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.image {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 52.08%,
+    #ffffff 100%
+  );
+  /* position: absolute; */
+}
+
+.title {
+  font-family: "Russo One", sans-serif;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.info input {
+  border: 2px solid #196ccf;
+  border-radius: 30px;
+  width: 100%;
+  height: 50px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  padding-left: 23px;
+  outline: none;
+  margin-top: 35px;
+}
+
+.info input:focus {
+  background: #ececec;
+}
+
+::placeholder {
+  font-family: "Open Sans", sans-serif;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 18px;
+}
+
+.accept button {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  width: 100%;
+  margin-top: 50px;
+  background: #275fbf;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  padding: 12px 130px;
+  color: white;
+  border: none;
+  outline: none;
+}
+
+.accept button:hover {
+  background: white;
+  color: #275fbf;
+}
